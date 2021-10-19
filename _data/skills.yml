@@ -1,0 +1,86 @@
+summary: 'As a website (full-stack) developer, I mostly use Javascript to build applications. However, I also have experience in other programming language, like PHP and Python. Here is the skill that I am capable of in programming:'
+list:
+  - name: Javascript
+    icon: fab fa-js-square
+    inCompanyExperience: 3
+    inProjectExperience: 2
+    contents:
+    - description: Using NodeJs as server environment
+      icon: fab fa-node-js
+    - description: Using Express and HapiJs as back-end framework
+      icon: fas fa-cubes
+    - description: Using Ember as front-end framework
+      icon: fab fa-ember
+    - description: Using VueJs as front-end framework
+      icon: fab fa-vuejs
+
+  - name: Database
+    icon: fas fa-database
+    inCompanyExperience: 3
+    inProjectExperience: 2
+    contents:
+    - description: Using MongoDb
+      icon: fas fa-database
+    - description: Using MySql and PostgreSql
+      icon: fas fa-database
+    - description: Using ArangoDb
+      icon: fas fa-database
+    - description: Using Redis
+      icon: fas fa-database
+
+  - name: Version Control
+    icon: fab fa-git-square
+    inCompanyExperience: 3
+    inProjectExperience: 2
+    contents:
+    - description: Using MongoDb
+      icon: fab fa-github
+      url: https://github.com/chryspii
+      urlDescription: chryspii
+    - description: Using Gitlab
+      icon: fab fa-gitlab
+      url: https://gitlab.com/vickychrystian
+      urlDescription: vickychrystian
+
+  - name: Docker
+    icon: fab fa-docker
+    inCompanyExperience: 1
+    inProjectExperience: 1
+    contents:
+    - description: Using docker to develop and run applications
+      icon: fab fa-docker
+
+  - name: Testing
+    icon: fas fa-vials
+    inCompanyExperience: 2
+    contents:
+    - description: Using Mocha to do unit and integration test
+      icon: fas fa-vial
+
+  - name: HTML
+    icon: fab fa-html5
+    inCompanyExperience: 3
+    inProjectExperience: 3
+    contents:
+    - description: Using HTML as markup language
+      icon: fab fa-html5
+    - description: Using CSS and SCSS as HMTL Styling
+      icon: fab fa-css3-alt
+
+  - name: PHP
+    icon: fab fa-php
+    inCompanyExperience: 1
+    inProjectExperience: 1
+    contents:
+    - description: Using Xampp as server environment
+      icon: fas fa-server
+    - description: Using Code Igniter and Yii as back-end framework
+      icon: fas fa-cubes
+
+  - name: Python
+    icon: fab fa-python
+    inProjectExperience: 1
+    contents:
+    - description: For data processing
+      icon: fas fa-table
+  

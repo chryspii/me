@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: 'en-US' }}">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+
+  <title>{{ page.title }} - {{ site.title }}</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+  <link rel="stylesheet" href="{{ '/assets/css/aos/aos.css' }}">
+  <link rel="stylesheet" href="{{ '/assets/css/glightbox/glightbox.min.css' }}">
+  <link rel="stylesheet" href="{{ '/assets/css/swiper/swiper-bundle.min.css' }}">
+  
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' }}">
+</head>
+<body>
+  {% include navbar.html %}
+
+  <section id="hero" class="d-flex flex-column justify-content-center">
+    <div class="container" data-aos="zoom-in" data-aos-delay="100">
+      <h1>{{ site.data.info.name }}</h1>
+      <p>I am <span class="typewriter"></span></p>
+      <div class="social-links">
+        {% for social in site.data.social %}
+          <a href="{{ social.url }}" class="{{ social.class }}"><i class="{{ social.icon }}"></i></a>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+
+  <main id="main">
+    <section id="about" class="about">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>About Me</h2>
+          <p>{{ site.data.info.summary }}</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4">
+            <img src="" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-8 pt-4 pt-lg-0 content">
+            <h3>{{ site.data.info.fullname }}</h3>
+            <p class="fst-italic">
+              Here is a summary about me:
+            </p>
+            <div class="row">
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="fas fa-chevron-circle-right"></i> <strong>Phone:</strong> <span>{{ site.data.info.phone }}</span></li>
+                  <li><i class="fas fa-chevron-circle-right"></i> <strong>City:</strong> <span>{{ site.data.info.city }}</span></li>
+                </ul>
+              </div>
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="fas fa-chevron-circle-right"></i> <strong>Email:</strong> <span>{{ site.data.info.email }}</span></li>
+                  <li><i class="fas fa-chevron-circle-right"></i> <strong>Nationality:</strong> <span>{{ site.data.info.nationality }}</span></li>
+                </ul>
+              </div>
+            </div>
+            <p>
+              Please feel free to contact me through my social media or my contact information
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section id="skills" class="skills section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Skills</h2>
+          <p>
+            {{ site.data.skills.summary }}
+          </p>
+        </div>
+
+        <div class="row skills-content">
+          <ul class='skills'>
+            {% for skill in site.data.skills.list %}
+              <li class='skill-item'>
+                <span class="{{ skill.icon }}"></span>
+
+                <h3>{{ skill.name }}</h3>
+                <div class='skill-content'>
+                  <p>
+                    {% if skill.inCompanyExperience > 0 %}
+                      {{ skill.inCompanyExperience }} Years in company experience
+                    {% endif %}
+
+                    {% if skill.inCompanyExperience > 0 and skill.inProjectExperience > 0 %}
+                      <br />
+                    {% endif %}
+
+                    {% if skill.inProjectExperience > 0 %}
+                      {{ skill.inProjectExperience }} Years in projects experience
+                    {% endif %}
+                  </p>
+                  <ul class="fa-ul">
+                    {% for content in skill.contents %}
+                      <li>
+                        <span class="fa-li"><i class="{{ content.icon }}"></i></span>
+                        {{ content.description }}
+                        {% if content.url %}
+                           (<a href="{{ content.url }}">{{ content.urlDescription }}</a>)
+                        {% endif %}
+                      </li>
+                    {% endfor %}
+                  </ul>
+                </div>
+              </li>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="resume" class="resume">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Resume</h2>
+          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6">
+            <h3 class="resume-title">Summary</h3>
+            <div class="resume-item pb-0">
+              <h4>{{ site.data.info.name }}</h4>
+              <p>
+                <em>
+                  {{ site.data.resume.summary }}
+                </em>
+              </p>
+              <ul>
+                <li>{{ site.data.info.city }}</li>
+                <li>{{ site.data.info.phone }}</li>
+                <li>{{ site.data.info.email }}</li>
+              </ul>
+            </div>
+
+            <h3 class="resume-title">Education</h3>
+            {% for education in site.data.resume.educations %}
+              <div class="resume-item">
+                <h4>{{ education.degree }}</h4>
+                <h5>{{ education.years }}</h5>
+                <h5>{{ education.gpa }}</h5>
+                <p>
+                  <em>{{ education.school }}</em>
+                </p>
+                <p>
+                  <strong>Research:</strong> {{ education.research }}
+                </p>
+                <p>{{ education.description }}</p>
+              </div>
+            {% endfor %}
+          </div>
+          <div class="col-lg-6">
+            <h3 class="resume-title">Professional Experience</h3>
+            {% for experience in site.data.resume.experiences %}
+            <div class="resume-item">
+              <h4>{{ experience.title }}</h4>
+              <h5>{{ experience.years }}</h5>
+              <p>
+                <em>{{ experience.company }}</em>
+              </p>
+              <p>
+                {{ experience.description }}
+              </p>
+            </div>
+            {% endfor %}
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- <section id="portfolio" class="portfolio section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Portfolio</h2>
+          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+        </div>
+
+        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
+          
+          {% for project in site.projects %}
+
+          {% endfor %}
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>App 1</h4>
+                <p>App</p>
+                <div class="portfolio-links">
+                  <a href="" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Web 3</h4>
+                <p>Web</p>
+                <div class="portfolio-links">
+                  <a href="" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>App 2</h4>
+                <p>App</p>
+                <div class="portfolio-links">
+                  <a href="" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 2"><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Card 2</h4>
+                <p>Card</p>
+                <div class="portfolio-links">
+                  <a href="" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 2"><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Web 2</h4>
+                <p>Web</p>
+                <div class="portfolio-links">
+                  <a href="" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 2"><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>App 3</h4>
+                <p>App</p>
+                <div class="portfolio-links">
+                  <a href="" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 3"><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Card 1</h4>
+                <p>Card</p>
+                <div class="portfolio-links">
+                  <a href="" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 1"><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Card 3</h4>
+                <p>Card</p>
+                <div class="portfolio-links">
+                  <a href="" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 3"><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Web 3</h4>
+                <p>Web</p>
+                <div class="portfolio-links">
+                  <a href="" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section> -->
+  </main>
+
+  {% include footer.html %}
+</body>
+</html>

@@ -1,0 +1,19 @@
+- name: facebook
+  icon: fab fa-facebook
+  url: https://facebook.com
+  class: facebook
+
+- name: line
+  icon: fab fa-line
+  url: https://facebook.com
+  class: line
+
+- name: email
+  icon: fas fa-at
+  url: https://facebook.com
+  class: email
+
+- name: email
+  icon: fab fa-github
+  url: https://facebook.com
+  class: github

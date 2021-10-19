@@ -1,0 +1,29 @@
+summary: 'Passionate and fast-learner Website (full-stack) developer with 2+ years of experience creating website applications'
+educations:
+  - degree: Master of Industrial Management
+    years: 2018 - 2020
+    school: National Taiwan University of Science and Technology, Taiwan
+    description: "In my Master's Degree, I am focusing my study on the Internet of Things laboratory with a lot of Internet of Things related projects. While doing the projects, I am taking part in creating website applications and managing servers including the databases. I also do some projects which involving machine learning for prediction, image processing using YOLO, and using Blockchain"
+    gpa: 3.84 out of 4.30
+    research: Blockchain and Distribute File System
+  - degree: Bachelor of Computer Science
+    years: 2012 - 2016
+    school: Institut Teknologi Sepuluh Nopember, Indonesia
+    description: "In my Bachelor's degree, I am focusing my study to learn creating website applications. My research is to develop a web-based Enterprise Resource Planning Application on Sales and Distribution module and using Holt-Winters Forecasting in the application to forecast sales"
+    gpa: 3.54 out of 4.00
+    research: Enterprise Resource Planning Application
+experiences:
+  - title: Fullstack Website Programmer
+    years: 2020 - Present
+    company: 大筆資訊有限公司 (BigOrdr), Taiwan
+    description: "Develop and maintain two web-based e-commerce applications. First, an application to help merchant deploy their online store (Enterprise Resource Planning Application). Second, an application where customers can buy items from the merchant's deployed shop (Online Shop Application).
+    <br />Using NodeJs with HapiJs as the back-end framework. The database used is ArangoDb.
+    <br />In my works, I develop several new features: Shipping System, Membership and Reward System, and improvement in Sales Invoice and customer data."
+  - title: IT Staff
+    years: 2016 - 2018
+    company: CV. Karya Hidup Sentosa, Indonesia
+    description: "Innovate and develop web-based applications to help and accelerate the company's business processes. Using PHP as Server-side programming language and Code Igniter (CI) as the framework. The Database used is PostgreSQL and Oracle DB. Combine the current web application with Oracle ERP to easily help the custom process needed."
+  - title: Internship
+    years: 2015
+    company: PT. Pertamina (Persero), Indonesia
+    description: "Develop web-based applications to help organizing the company’s document management."
