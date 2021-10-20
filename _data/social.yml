@@ -1,19 +1,24 @@
 - name: facebook
   icon: fab fa-facebook
-  url: https://facebook.com
+  url: https://www.facebook.com/chryspi
   class: facebook
-
-- name: line
-  icon: fab fa-line
-  url: https://facebook.com
-  class: line
 
 - name: email
   icon: fas fa-at
-  url: https://facebook.com
+  url: mailto:vicky.chryst@gmail.com
   class: email
 
-- name: email
+- name: github
   icon: fab fa-github
-  url: https://facebook.com
+  url: https://github.com/chryspii
   class: github
+
+- name: linkedin
+  icon: fab fa-linkedin-in
+  url: https://www.linkedin.com/in/chryspii/
+  class: github
+
+- name: stackoverflow
+  icon: fab fa-stack-overflow
+  url: https://stackexchange.com/users/17355334/chryspi
+  class: stackoverflow

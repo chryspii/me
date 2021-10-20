@@ -1,8 +1,5 @@
 ---
 layout: home
-title:  "ini index"
-date:   2015-11-17 16:16:01 +0800
-categories: jekyll update
+title:  home
+date:   2021-10-18 16:16:01 +0800
 ---
-
-Ini punya index isinya

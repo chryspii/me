@@ -16,14 +16,15 @@ experiences:
   - title: Fullstack Website Programmer
     years: 2020 - Present
     company: 大筆資訊有限公司 (BigOrdr), Taiwan
-    description: "Develop and maintain two web-based e-commerce applications. First, an application to help merchant deploy their online store (Enterprise Resource Planning Application). Second, an application where customers can buy items from the merchant's deployed shop (Online Shop Application).
-    <br />Using NodeJs with HapiJs as the back-end framework. The database used is ArangoDb.
-    <br />In my works, I develop several new features: Shipping System, Membership and Reward System, and improvement in Sales Invoice and customer data."
+    description: "Develop and maintain web-based e-commerce applications. First, an application to help merchant deploy their online store and manage their products, customers, sales, purchases, etc. (Enterprise Resource Planning Application). Second, an application where customers can buy items from the merchant's deployed shop (Online Shop Application).
+    <br />Using NodeJs with HapiJs as the back-end framework and EmberJs as the front-end framework. Using ArangoDb and Redis as the database.
+    <br />In my works, I develop several features: Zone and Shipping System, Membership and Reward System, and improvement in Sales Invoice and customer data."
   - title: IT Staff
     years: 2016 - 2018
     company: CV. Karya Hidup Sentosa, Indonesia
-    description: "Innovate and develop web-based applications to help and accelerate the company's business processes. Using PHP as Server-side programming language and Code Igniter (CI) as the framework. The Database used is PostgreSQL and Oracle DB. Combine the current web application with Oracle ERP to easily help the custom process needed."
+    description: "Innovate and develop web-based applications to help and accelerate the company's business processes.
+    <br />Using PHP as Server-side programming language and Code Igniter (CI) as the framework. The Database used is PostgreSQL and Oracle DB. Combine the current web application with Oracle ERP to easily help the custom process needed."
   - title: Internship
     years: 2015
     company: PT. Pertamina (Persero), Indonesia
-    description: "Develop web-based applications to help organizing the company’s document management."
+    description: "Develop web-based applications to help organize, manage, and check the company’s documents."

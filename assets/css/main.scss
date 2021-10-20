@@ -8,6 +8,8 @@ $facebook-color: #4267B2;
 $line-color: #00b900;
 $email-color: #BB001B;
 $github-color: #171515;
+$linkedin-color: #2867B2;
+$stackoverflow-color: #ef8236;
 $font-color: #313538;
 
 body {
@@ -327,6 +329,11 @@ section {
 }
 .section-title p {
   margin-bottom: 0;
+}
+
+.about .img-fluid {
+  height: 14em;
+  border-radius: 5px;
 }
 
 .about .content h3 {
@@ -942,7 +949,7 @@ section {
 .contact .php-email-form textarea {
   padding: 10px 12px;
 }
-.contact .php-email-form button[type=submit] {
+#portfolio a.link-button {
   background: $main-color;
   border: 0;
   padding: 10px 35px;
@@ -1031,6 +1038,12 @@ section {
 #hero .social-links a.github:hover {
   color: $github-color;
 }
+#hero .social-links a.linkedin:hover {
+  color: $linkedin-color;
+}
+#hero .social-links a.stackoverflow:hover {
+  color: $stackoverflow-color;
+}
 
 #footer .social-links a.facebook:hover {
   background: $facebook-color;
@@ -1043,4 +1056,10 @@ section {
 }
 #footer .social-links a.github:hover {
   background: $github-color;
+}
+#footer .social-links a.linkedin:hover {
+  color: $linkedin-color;
+}
+#footer .social-links a.stackoverflow:hover {
+  color: $stackoverflow-color;
 }
