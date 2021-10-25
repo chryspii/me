@@ -1,4 +1,4 @@
-summary: 'As a website (full-stack) developer, I mostly use Javascript to build applications. However, I also have experience in other programming language, like PHP and Python. Here is the skill that I am capable of in programming:'
+summary: 'As a website (full-stack) developer, I mostly use Javascript to build applications. However, I also have experience in other programming languages, like PHP and Python. Here is the skill that I am capable of in programming:'
 list:
   - name: Javascript
     icon: fab fa-js-square
@@ -11,8 +11,32 @@ list:
       icon: fas fa-cubes
     - description: Using Ember as front-end framework
       icon: fab fa-ember
-    - description: Using VueJs as front-end framework
-      icon: fab fa-vuejs
+    - description: Using ReactJs as front-end framework
+      icon: fab fa-react
+  
+  - name: PHP
+    icon: fab fa-php
+    inCompanyExperience: 1
+    inProjectExperience: 1
+    contents:
+    - description: Using Xampp as server environment
+      icon: fas fa-server
+    - description: Using Code Igniter and Yii as back-end framework
+      icon: fas fa-cubes
+
+  - name: Python
+    icon: fab fa-python
+    inProjectExperience: 1
+    contents:
+    - description: For data processing
+      icon: fas fa-table
+    - description: For prediction
+      icon: fas fa-chart-line
+    - description: For classification
+      icon: fas fa-object-ungroup
+    - description: For statistical analysis
+      icon: fas fa-function
+
 
   - name: Database
     icon: fas fa-database
@@ -21,7 +45,7 @@ list:
     contents:
     - description: Using MongoDb
       icon: fas fa-database
-    - description: Using MySql
+    - description: Using MySql and PostgreSql
       icon: fas fa-database
     - description: Using ArangoDb
       icon: fas fa-database
@@ -66,25 +90,6 @@ list:
       icon: fab fa-html5
     - description: Using CSS and SCSS as HMTL Styling
       icon: fab fa-css3-alt
-
-  - name: PHP
-    icon: fab fa-php
-    inCompanyExperience: 1
-    inProjectExperience: 1
-    contents:
-    - description: Using Xampp as server environment
-      icon: fas fa-server
-    - description: Using Code Igniter and Yii as back-end framework
-      icon: fas fa-cubes
-
-  - name: Python
-    icon: fab fa-python
-    inProjectExperience: 1
-    contents:
-    - description: For data processing
-      icon: fas fa-table
-    - description: For prediction
-      icon: fas fa-chart-line
-    - description: For classification
-      icon: fas fa-object-ungroup
+    - description: Using Bootstrap as CSS Framework
+      icon: fab fa-bootstrap
   
