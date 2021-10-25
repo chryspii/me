@@ -13,10 +13,10 @@ educations:
     gpa: 3.54 out of 4.00
     research: Enterprise Resource Planning Application
 experiences:
-  - title: Fullstack Website Programmer
+  - title: Fullstack Website Developer
     years: 2020 - Present
     company: 大筆資訊有限公司 (BigOrdr), Taiwan
-    description: "Develop and maintain web-based e-commerce applications. First, an application to help merchant deploy their online store and manage their products, customers, sales, purchases, etc. (Enterprise Resource Planning Application). Second, an application where customers can buy items from the merchant's deployed shop (Online Shop Application).
+    description: "Develop and maintain web-based e-commerce applications, which consist of an application to help merchant deploy their online store and manage their products, customers, sales, purchases, etc. (Enterprise Resource Planning Application) and an application where customers can buy items from the merchant's deployed shop (Online Shop Application).
     <br />Using NodeJs with HapiJs as the back-end framework and EmberJs as the front-end framework. Using ArangoDb and Redis as the database.
     <br />In my works, I develop several features: Zone and Shipping System, Membership and Reward System, and improvement in Sales Invoice and customer data."
   - title: IT Staff

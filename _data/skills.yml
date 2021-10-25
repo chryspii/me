@@ -2,7 +2,7 @@ summary: 'As a website (full-stack) developer, I mostly use Javascript to build 
 list:
   - name: Javascript
     icon: fab fa-js-square
-    inCompanyExperience: 3
+    inCompanyExperience: 2
     inProjectExperience: 2
     contents:
     - description: Using NodeJs as server environment
@@ -16,12 +16,12 @@ list:
 
   - name: Database
     icon: fas fa-database
-    inCompanyExperience: 3
+    inCompanyExperience: 2
     inProjectExperience: 2
     contents:
     - description: Using MongoDb
       icon: fas fa-database
-    - description: Using MySql and PostgreSql
+    - description: Using MySql
       icon: fas fa-database
     - description: Using ArangoDb
       icon: fas fa-database
@@ -30,10 +30,10 @@ list:
 
   - name: Version Control
     icon: fab fa-git-square
-    inCompanyExperience: 3
+    inCompanyExperience: 2
     inProjectExperience: 2
     contents:
-    - description: Using MongoDb
+    - description: Using Github
       icon: fab fa-github
       url: https://github.com/chryspii
       urlDescription: chryspii
@@ -52,17 +52,17 @@ list:
 
   - name: Testing
     icon: fas fa-vials
-    inCompanyExperience: 2
+    inCompanyExperience: 1
     contents:
     - description: Using Mocha to do unit and integration test
       icon: fas fa-vial
 
   - name: HTML
     icon: fab fa-html5
-    inCompanyExperience: 3
+    inCompanyExperience: 2
     inProjectExperience: 3
     contents:
-    - description: Using HTML as markup language
+    - description: Using HTML5 as markup language
       icon: fab fa-html5
     - description: Using CSS and SCSS as HMTL Styling
       icon: fab fa-css3-alt
@@ -83,4 +83,8 @@ list:
     contents:
     - description: For data processing
       icon: fas fa-table
+    - description: For prediction
+      icon: fas fa-chart-line
+    - description: For classification
+      icon: fas fa-object-ungroup
   

@@ -105,7 +105,7 @@
 
   window.addEventListener('load', async () => {
     let count = 0
-    const text = 'Web Developer'
+    const text = 'Developer'
     const speed = 50
   
     // wait content to load for 1 second
