@@ -22,7 +22,7 @@ title: Vicky
 email: vicky.chryst@gmail.com
 description: ""
 baseurl: "/"
-url: "https://chryspii.github.io"
+url: "https://chryspii.github.io/me"
 
 sass:
   sass_dir: assets/css
