@@ -1,30 +1,45 @@
-summary: 'Passionate and fast-learner Website (full-stack) developer with 2+ years of experience creating website applications'
 educations:
   - degree: Master of Industrial Management
     years: 2018 - 2020
-    school: National Taiwan University of Science and Technology, Taiwan
-    description: "In my Master's Degree, I am focusing my study on the Internet of Things laboratory with a lot of Internet of Things related projects. While doing the projects, I am taking part in creating website applications and managing servers including the databases. I also do some projects which involving machine learning for prediction, image processing using YOLO, and using Blockchain"
+    location: Taiwan
+    school: National Taiwan University of Science and Technology
+    description: "Member of Center of IoT Innovation Research Laboratory in 2018 to 2020"
     gpa: 3.84 out of 4.30
     research: Blockchain and Distribute File System
   - degree: Bachelor of Computer Science
     years: 2012 - 2016
-    school: Institut Teknologi Sepuluh Nopember, Indonesia
-    description: "In my Bachelor's degree, I am focusing my study to learn creating website applications. My research is to develop a web-based Enterprise Resource Planning Application on Sales and Distribution module and using Holt-Winters Forecasting in the application to forecast sales"
+    location: Indonesia
+    school: Institut Teknologi Sepuluh Nopember
+    description: "Member of Institut Teknologi Sepuluh Nopember Robotic Team in 2013 to 2014 and join Indonesian Dance Robot Contest (Kontes Robot Tari Indonesia) in 2014"
     gpa: 3.54 out of 4.00
     research: Enterprise Resource Planning Application
 experiences:
-  - title: Fullstack Website Developer
+  - title: Software Engineer
     years: 2020 - Present
-    company: 大筆資訊有限公司 (BigOrdr), Taiwan
-    description: "Develop and maintain web-based e-commerce applications, which consist of an application to help merchant deploy their online store and manage their products, customers, sales, purchases, etc. (Enterprise Resource Planning Application) and an application where customers can buy items from the merchant's deployed shop (Online Shop Application).
-    <br />Using NodeJs with HapiJs as the back-end framework and EmberJs as the front-end framework. Using ArangoDb and Redis as the database.
-    <br />In my works, I develop several features: Zone and Shipping System, Membership and Reward System, and improvement in Sales Invoice and customer data."
-  - title: IT Staff
+    location: Taiwan
+    company: 大筆資訊有限公司 (BigOrdr)
+    descriptions:
+      - Engineered and maintained full-stack e-commerce platforms, including a scalable ERP system for merchants and an online shop for end customers.
+      - Developed robust back-end services with Node.js and Hapi.js, integrated with Ember.js front-end for high-performance, user-centric applications.
+      - Architected data persistence and caching solutions using ArangoDB and Redis, enhancing platform speed, reliability, and scalability.
+      - "Delivered critical features: Zone & Shipping Management, Membership & Reward Systems, and advanced Sales Invoice and Customer Data modules."
+      - Integrated ERP with payment gateways (payUni) and third-party logistics APIs, including 7-Eleven and Family Mart, automating order fulfillment and streamlining shipping workflows.
+      - Collaborated in agile sprints and code reviews, contributing technical solutions that aligned business goals with scalable software design. 
+  - title: Software Engineer
     years: 2016 - 2018
-    company: CV. Karya Hidup Sentosa, Indonesia
-    description: "Innovate and develop web-based applications to help and accelerate the company's business processes.
-    <br />Using PHP as Server-side programming language and Code Igniter (CI) as the framework. The Database used is PostgreSQL and Oracle DB. Combine the current web application with Oracle ERP to easily help the custom process needed."
-  - title: Internship
-    years: 2015
-    company: PT. Pertamina (Persero), Indonesia
-    description: "Develop web-based applications to help organize, manage, and check the company’s documents."
+    location: Indonesia
+    company: CV. Karya Hidup Sentosa
+    descriptions:
+      - Designed and developed web applications to automate and accelerate core business processes across multiple departments.
+      - Built server-side systems with PHP and CodeIgniter, integrating with PostgreSQL and Oracle databases for robust, scalable solutions.
+      - Connected custom applications with Oracle ERP to streamline specialized business workflows and improve data consistency.
+      - Delivered solutions that increased operational efficiency, automated manual processes, and enhanced company-wide system reliability. 
+publications:
+  - title: Two-Stages Occupancy Number Detection Based on Indoor Environment Attributes by Utilizing Machine Learning Algorithm
+    url: https://ieeexplore.ieee.org/abstract/document/9066241
+    date: November 2019
+    location: National Taiwan University of Science and Technology
+  - title: Sales forecasting using Holt-Winters in Enterprise Resource Planning at sales and distribution module
+    url: https://ieeexplore.ieee.org/abstract/document/7910264
+    date: October 2016
+    location: Institut Teknologi Sepuluh Nopember

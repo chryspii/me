@@ -21,8 +21,8 @@
 title: Vicky
 email: vicky.chryst@gmail.com
 description: ""
-baseurl: ""
-url: ""
+baseurl: "/"
+url: "https://chryspii.github.io"
 
 sass:
   sass_dir: assets/css

@@ -1,9 +1,9 @@
-summary: 'As a website (full-stack) developer, I mostly use Javascript to build applications. However, I also have experience in other programming languages, like PHP and Python. Here is the skill that I am capable of in programming:'
+summary: 'I’m a software engineer specializing in JavaScript application development, with additional experience across various programming languages. My key programming skills include:'
 list:
   - name: Javascript
     icon: fab fa-js-square
-    inCompanyExperience: 2
-    inProjectExperience: 2
+    inCompanyExperience: 0
+    inProjectExperience: 0
     contents:
     - description: Using NodeJs as server environment
       icon: fab fa-node-js
@@ -16,8 +16,8 @@ list:
   
   - name: PHP
     icon: fab fa-php
-    inCompanyExperience: 1
-    inProjectExperience: 1
+    inCompanyExperience: 0
+    inProjectExperience: 0
     contents:
     - description: Using Xampp as server environment
       icon: fas fa-server
@@ -26,7 +26,7 @@ list:
 
   - name: Python
     icon: fab fa-python
-    inProjectExperience: 1
+    inProjectExperience: 0
     contents:
     - description: For data processing
       icon: fas fa-table
@@ -40,8 +40,8 @@ list:
 
   - name: Database
     icon: fas fa-database
-    inCompanyExperience: 2
-    inProjectExperience: 2
+    inCompanyExperience: 0
+    inProjectExperience: 0
     contents:
     - description: Using MongoDb
       icon: fas fa-database
@@ -54,8 +54,8 @@ list:
 
   - name: Version Control
     icon: fab fa-git-square
-    inCompanyExperience: 2
-    inProjectExperience: 2
+    inCompanyExperience: 0
+    inProjectExperience: 0
     contents:
     - description: Using Github
       icon: fab fa-github
@@ -68,23 +68,23 @@ list:
 
   - name: Docker
     icon: fab fa-docker
-    inCompanyExperience: 1
-    inProjectExperience: 1
+    inCompanyExperience: 0
+    inProjectExperience: 0
     contents:
     - description: Using docker to develop and run applications
       icon: fab fa-docker
 
   - name: Testing
     icon: fas fa-vials
-    inCompanyExperience: 1
+    inCompanyExperience: 0
     contents:
     - description: Using Mocha to do unit and integration test
       icon: fas fa-vial
 
   - name: HTML
     icon: fab fa-html5
-    inCompanyExperience: 2
-    inProjectExperience: 3
+    inCompanyExperience: 0
+    inProjectExperience: 0
     contents:
     - description: Using HTML5 as markup language
       icon: fab fa-html5
