@@ -697,6 +697,45 @@ section {
   border-radius: 50px;
 }
 
+#portfolio .skills.strecth {
+   align-items: stretch;
+
+   li.skill-item {
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+  }
+
+  li.skill-item .skill-content {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+  }
+
+  .skill-content .skill-content-footer {
+    margin-top: auto;
+  }
+}
+
+.scroll-tags {
+  cursor: grab;
+  user-select: none;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.scroll-tags:active {
+  cursor: grabbing;
+}
+.scroll-tags::-webkit-scrollbar {
+  display: none;
+}
+
+.skills-content ul.skills li.skill-item .skill-content .scroll-tags span.badge {
+  background-color: $main-color;
+  color: #fff;
+  font-weight: 300;
+}
+
 #footer {
   background: #f7f8f9;
   color: #45505b;

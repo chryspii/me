@@ -1,0 +1,53 @@
+list:
+  - name: Message Queue
+    codeUrl: https://github.com/chryspii/simple-messages
+    demoUrl:
+    description: A fullstack message processing system that demonstrates reliable asynchronous messaging with features like retry handling, idempotent, and DLQ
+    techStacks:
+      - NodeJs
+      - Express
+      - MongoDB
+      - Redis
+      - RabbitMQ
+      - WebSocket
+      - React (Vite)
+      - Tailwind
+      - Mocha
+
+  - name: My Resume
+    codeUrl: https://github.com/chryspii/me
+    demoUrl: https://chryspii.github.io/me/
+    description: A personal resume and portfolio website that showcases my background, skills, and selected projects. Built as a lightweight web application to present professional experience and learning projects in a clean and simple interface
+    techStacks:
+      - Jekyll
+      - Bootstrap 5
+      - GitHub Pages
+
+  - name: Smart Campus
+    codeUrl: https://github.com/chryspii/android-smartcampus
+    demoUrl:
+    description: A smart campus system consisting of backend services, a web dashboard, and an Android application. The platform collects data from IoT devices, processes the data on a separate backend service, and presents useful information to users
+    techStacks:
+      - NodeJs
+      - Express
+      - MongoDB
+      - Elastic
+      - Android (Kotlin)
+      - Python
+
+  - name: Simple Shop (Backend)
+    codeUrl: https://github.com/chryspii/my-shop-app-backend
+    demoUrl:
+    description: A simple backend service for a shop application that allows users to add items and perform a basic checkout process. The project focuses on core backend logic such as item management, order handling, and data persistence
+    techStacks:
+      - NodeJs
+      - Express
+      - MongoDB
+
+  - name: Simple Shop (Frontend)
+    codeUrl: https://github.com/chryspii/my-shop-app-frontend
+    demoUrl:
+    description: A simple frontend application for a shop system that allows users to browse items, add products to a cart, and complete a basic checkout flow. The focus is on clean UI structure and seamless integration with the backend API
+    techStacks:
+      - React
+      - Bootstrap

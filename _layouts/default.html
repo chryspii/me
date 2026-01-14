@@ -51,14 +51,14 @@
               <div class="col-lg-3"></div>
               <div class="col-lg-3">
                 <ul>
-                  <li><i class="fas fa-chevron-circle-right"></i> <strong>Phone:</strong> <span>{{ site.data.info.phone }}</span></li>
-                  <li><i class="fas fa-chevron-circle-right"></i> <strong>City:</strong> <span>{{ site.data.info.city }}</span></li>
+                  <li><i class="fas fa-chevron-circle-right"></i> <strong>Phone:</strong> <span class='text-nowrap'>{{ site.data.info.phone }}</span></li>
+                  <li><i class="fas fa-chevron-circle-right"></i> <strong>City:</strong> <span class='text-nowrap'>{{ site.data.info.city }}</span></li>
                 </ul>
               </div>
               <div class="col-lg-3">
                 <ul>
-                  <li><i class="fas fa-chevron-circle-right"></i> <strong>Email:</strong> <span>{{ site.data.info.email }}</span></li>
-                  <li><i class="fas fa-chevron-circle-right"></i> <strong>Nationality:</strong> <span>{{ site.data.info.nationality }}</span></li>
+                  <li><i class="fas fa-chevron-circle-right"></i> <strong>Email:</strong> <span class='text-nowrap'>{{ site.data.info.email }}</span></li>
+                  <li><i class="fas fa-chevron-circle-right"></i> <strong>Nationality:</strong> <span class='text-nowrap'>{{ site.data.info.nationality }}</span></li>
                 </ul>
               </div>
               <div class="col-lg-3"></div>
@@ -199,6 +199,54 @@
           <div class='mt-3'>
             <a href='https://github.com/chryspii?tab=repositories' class='link-button' target='_blank'>Vicky's Repository</a>
           </div>
+        </div>
+
+        <div class="row skills-content">
+          <ul class='skills strecth'>
+            {% for portfolio in site.data.portfolios.list %}
+              <li class='skill-item'>
+                <h3>{{ portfolio.name }}</h3>
+                <div class='skill-content'>
+                  <p class="text-center">
+                    {{ portfolio.description }}
+                  </p>
+                  <div class='skill-content-footer'>
+                    <div class="row g-2 mb-2">
+                      <div class="col-6">
+                        <a
+                          {% if portfolio.codeUrl %}
+                            href="{{ portfolio.codeUrl }}" target="_blank"
+                            class="btn btn-sm btn-outline-primary w-100"
+                          {% else %}
+                            class="btn btn-sm btn-outline-secondary w-100 disabled"
+                          {% endif %}
+                        >
+                          Code
+                        </a>
+                      </div>
+                      <div class="col-6">
+                        <a
+                          {% if portfolio.demoUrl %}
+                            href="{{ portfolio.demoUrl }}" target="_blank"
+                            class="btn btn-sm btn-outline-primary w-100"
+                          {% else %}
+                            class="btn btn-sm btn-outline-secondary w-100 disabled"
+                          {% endif %}
+                        >
+                          Demo
+                        </a>
+                      </div>
+                    </div>
+                    <div class="scroll-tags d-flex flex-nowrap gap-1 overflow-auto">
+                      {% for tech in portfolio.techStacks %}
+                        <span class="badge">{{ tech }}</span>
+                      {% endfor %}
+                    </div>
+                  </div>
+                </div>
+              </li>
+            {% endfor %}
+          </ul>
         </div>
 
       </div>
