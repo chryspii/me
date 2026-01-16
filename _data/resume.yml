@@ -3,15 +3,15 @@ educations:
     years: 2018 - 2020
     location: Taiwan
     school: National Taiwan University of Science and Technology
-    description: "Member of Center of IoT Innovation Research Laboratory in 2018 to 2020"
-    gpa: 3.84 out of 4.30
+    description: "Member, Center of IoT Innovation Research Lab (2018–2020)"
+    gpa: 3.84 / 4.30
     research: Blockchain and Distribute File System
   - degree: Bachelor of Computer Science
     years: 2012 - 2016
     location: Indonesia
     school: Institut Teknologi Sepuluh Nopember
-    description: "Member of Institut Teknologi Sepuluh Nopember Robotic Team in 2013 to 2014 and join Indonesian Dance Robot Contest (Kontes Robot Tari Indonesia) in 2014"
-    gpa: 3.54 out of 4.00
+    description: "Member, ITS Robotics Team (Indonesian Dance Robot Contest 2014)"
+    gpa: 3.54 / 4.00
     research: Enterprise Resource Planning Application
 experiences:
   - title: Software Engineer
@@ -19,21 +19,21 @@ experiences:
     location: Taiwan
     company: 大筆資訊有限公司 (BigOrdr)
     descriptions:
-      - Engineered and maintained full-stack e-commerce platforms, including a scalable ERP system for merchants and an online shop for end customers.
-      - Developed robust back-end services with Node.js and Hapi.js, integrated with Ember.js front-end for high-performance, user-centric applications.
-      - Architected data persistence and caching solutions using ArangoDB and Redis, enhancing platform speed, reliability, and scalability.
-      - "Delivered critical features: Zone & Shipping Management, Membership & Reward Systems, and advanced Sales Invoice and Customer Data modules."
-      - Integrated ERP with payment gateways (payUni) and third-party logistics APIs, including 7-Eleven and Family Mart, automating order fulfillment and streamlining shipping workflows.
-      - Collaborated in agile sprints and code reviews, contributing technical solutions that aligned business goals with scalable software design. 
+      - Built and maintained e-commerce and ERP systems using Node.js and Ember.js 
+      - Developed shipping, membership, invoicing, and customer modules 
+      - Integrated systems with third party payment gateway (PayUni) and shipping logistics APIs (7-Eleven, FamilyMart) 
+      - Designed databases and caching using Arango DB and Redis to improve performance 
+      - Supported agile delivery, code reviews, and team collaboration 
+      - Improved system responsiveness and reliability through caching and async job processing 
   - title: Software Engineer
     years: 2016 - 2018
     location: Indonesia
     company: CV. Karya Hidup Sentosa
     descriptions:
-      - Designed and developed web applications to automate and accelerate core business processes across multiple departments.
-      - Built server-side systems with PHP and CodeIgniter, integrating with PostgreSQL and Oracle databases for robust, scalable solutions.
-      - Connected custom applications with Oracle ERP to streamline specialized business workflows and improve data consistency.
-      - Delivered solutions that increased operational efficiency, automated manual processes, and enhanced company-wide system reliability. 
+      - Built internal web tools to automate business processes across departments 
+      - Developed backend services using PHP and PostgreSQL integrated with Oracle ERP 
+      - Improved data accuracy and efficiency by replacing manual workflows 
+      - Helped streamline company-wide operations through custom web applications 
 publications:
   - title: Two-Stages Occupancy Number Detection Based on Indoor Environment Attributes by Utilizing Machine Learning Algorithm
     url: https://ieeexplore.ieee.org/abstract/document/9066241
