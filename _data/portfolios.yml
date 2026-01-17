@@ -1,7 +1,7 @@
 list:
   - name: Message Queue
     codeUrl: https://github.com/chryspii/simple-messages
-    demoUrl:
+    demoUrl: https://vicky.sapikuda.com/
     description: A fullstack message processing system that demonstrates reliable asynchronous messaging with features like retry handling, idempotent, and DLQ
     techStacks:
       - NodeJs
