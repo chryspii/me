@@ -36,7 +36,10 @@ list:
       icon: fas fa-object-ungroup
     - description: For statistical analysis
       icon: fas fa-function
-
+    - description: Using TensorFlow to build and run machine learning models
+      icon: fas fa-table
+    - description: Using Django as back-end framework
+      icon: fas fa-cubes
 
   - name: Database
     icon: fas fa-database
